@@ -44,7 +44,7 @@
 					</ul>
 					<?php } ?>
 					<?php 
-						echo apply_atomic_shortcode( 'footer_content', '<p class="credit">' . __( 'Copyright &copy; [the-year] [site-link]. Powered by [wp-link] and [theme-link].', 'hybrid-base' ) . '</p>' );
+						echo apply_atomic_shortcode( 'footer_content', '' . __( 'Copyright &copy; [the-year] [site-link]. Powered by [wp-link] and [theme-link].', 'hybrid-base' ) . '' );
 						
 					?>
 				</div>
