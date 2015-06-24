@@ -25,8 +25,8 @@ get_header('shop'); ?>
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
-		<header class="entry-header">
-			<h1 class="entry-title page-title"><?php woocommerce_page_title(); ?></h1>
+		<header class="entry-header" style="text-align: center;">
+			<h1 class="entry-title page-title"><img src="http://s21.postimg.org/uvsk2o8zr/logo.png" height="200" width="100"></h1>
 		</header>
 
 		<?php endif; ?>

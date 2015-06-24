@@ -22,7 +22,7 @@ define('DB_NAME', 'prodevices_db');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'rsu2015');
+define('DB_PASSWORD', 'taisa');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
