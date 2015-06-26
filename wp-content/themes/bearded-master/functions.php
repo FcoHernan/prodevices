@@ -1103,7 +1103,7 @@ function bearded_featured_slider() {
 function bearded_footer_content( $content ) {
 	$footer = hybrid_get_setting( 'footer_insert' );
 	if( !empty( $footer ) ) {
-		return '<p class="credit">' . esc_html( $footer, 'bearded' ) . '</p>';
+		return 'Prodevices 2015';
 	} else {
 		return $content;
 	}
